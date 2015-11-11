@@ -5,7 +5,7 @@ const integer = Number(process.argv[2]);
 // create a unsigned 32-bit view with size in parens
 const view32bit = new Uint32Array(1);
 
-// file the underlying buffer
+// fill the underlying buffer
 view32bit[0] = integer;
 
 // finds the reference to underlying memory for view32bit
